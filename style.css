@@ -354,6 +354,14 @@ body {
   gap: 12px;
 }
 
+.date-label {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: -4px;
+}
+
 .contact-form input,
 .contact-form input[type="date"],
 .contact-form textarea {
@@ -465,11 +473,12 @@ footer p {
   }
 }
 
+/* ===== MOBILE BLOCK ===== */
 @media (max-width: 767px) {
   .about-text .section-label { display: none; }
   .form-row { grid-template-columns: 1fr; }
-  .service-img { width: 90px; height: 90px; }
-  .hero-content h1 { font-size: 28px; }
+  .service-img { width: 100px; height: 100px; }
+  .hero-content h1 { font-size: 20px; }
   .section { padding: 48px 16px; }
   .about-section { padding: 48px 8px; }
 }
