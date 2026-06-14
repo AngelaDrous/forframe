@@ -477,7 +477,7 @@ footer p {
 @media (max-width: 767px) {
   .about-text .section-label { display: none; }
   .form-row { grid-template-columns: 1fr; }
-  .service-img { width: 100px; height: 100px; }
+  .service-img { width: 75px; height: 75px; }
   .hero-content h1 { font-size: 20px; }
   .section { padding: 48px 16px; }
   .about-section { padding: 48px 8px; }
